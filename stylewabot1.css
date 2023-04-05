@@ -1,0 +1,86 @@
+html,
+body {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: rgb(16, 15, 15);
+}
+
+.container img {
+    margin: 1rem 1rem;
+    width: 50px;
+    height: 50px;
+}
+
+.title {
+    font-size: 1rem;
+    margin: 2rem 0.1rem;
+    color: white;
+}
+
+.longtext {
+    margin: 0rem 1rem;
+}
+
+.longtext h3 {
+    margin: -1rem 0rem;
+}
+
+.bt-wabot {
+    background-image: linear-gradient(to right, #4facfe, #00f2fe 100%);
+    padding: 1rem 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 0.8rem;
+    text-decoration: none;
+}
+
+.bt-wabot:hover {
+    background-image: linear-gradient(to right, #00f2fe, #4facfe 100%);
+}
+
+
+.artikel {
+    width: 100%;
+    color: rgb(16, 15, 15);
+}
+
+.artikel p {
+    margin: -1.3rem 0.1rem;
+}
+
+.pemakaian .set {
+    margin: 0rem 1rem;
+    border-radius: 0.8rem;
+    width: 270px;
+}
+
+.pemakaian .textp {
+    margin: 0rem 1rem;
+}
+
+.fitur {
+    margin: -1rem 0rem;
+    width: 100%;
+    height: 1300px;
+    background-color: rgb(16, 15, 15);
+}
+
+.fitur .set {
+    margin: 0rem 1rem;
+    border-radius: 0.8rem;
+    width: 250px;
+    background-color: rgb(16, 15, 15);
+}
+
+.fitur h4 {
+    margin: 0.5rem 1rem;
+    color: white;
+}
